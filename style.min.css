@@ -48,9 +48,12 @@ a:hover {
 
 @media only screen and (max-width: 640px) {
 	.opera {
-	  margin: 10vh 5vw 10vh;
+	  margin: 3vh 5vw 3vh !important;
+	  word-spacing: nowrap;
+	  font-size: 12px !important;
 	}
 }
+
 
 .opera {	
 	margin: 10vh 25vw 10vh;
@@ -61,7 +64,7 @@ a:hover {
 	font-size: 26px;
 	color: #000000;
 	border: none;
-	background-color: #ffffff;
+	background-color: hsl(0, 0%, 100%);
 	text-indent: 2em
 }
 
